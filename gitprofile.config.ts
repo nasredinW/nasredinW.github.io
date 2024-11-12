@@ -25,41 +25,26 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['nasredinW/CloudFront_Signed_URL_generator_Python', 'nasredinW/OCR-Nvidia'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Nassredin wesleti',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'nassredine-wesleti-837b85241',
+    twitter: 'nasredine wesleti',
+  
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +54,111 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'nasredinwesleti',
+  
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'nasredinW.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'Nasredinwesleti@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
+    'Java/spring',
+    'Angular',
+    'lunix',
+    'LLM Deployment',
+    'CI/CD',
+    'GCP',
+    'Azure',
     'Node.js',
-    'Nest.js',
+    'AWS ** ',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'gitlab',
+    'python',
+    'Terraform',
+    'Ansible',
+    'Kubernetes'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'DataBizz',
+      position: 'Cloud DevOps Engineer ',
+      from: 'Sep 2024 ',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.databiz.fr/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'UBIAI',
+      position: 'System&Cloud Engineer',
+      from: 'Jun 2023',
+      to: 'Sep 2024 ',
+      companyLink: 'https://app.ubiai.tools',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'AWS practitioner',
+      body: 'This certification was earned through a collaboration between Orange Tunisie and AWS. The program lasted for 3 months and included over 200 lab exercises covering various AWS services, along with soft skills development and Linux administration training.',
+      year: 'jun 2023',
+      link: 'https://freecodecamp.org/certification/fcc4268ab8f-280c-4d52-907f-0ee5ab60f5f2/scientific-computing-with-python-v7',
+    },
+    {
+      name: ' Terraform Associate',
+      body: 'This certification was obtained through an in-depth training program focused on Infrastructure as Code (IaC) using Terraform. The program included hands-on labs and real-world use cases, covering key concepts like provisioning, managing, and automating cloud infrastructure with Terraform across multiple cloud providers. The course also included best practices for version control, collaboration, and deployment.',
+      year: 'Issued Oct 2024',
       link: 'https://example.com',
+    },
+    {
+      name: 'Scientific Computing with Python',
+      body: 'This certification was earned through a comprehensive program focused on utilizing Python for scientific and computational applications. The course covered key topics such as numerical analysis, data visualization, statistical modeling, and solving complex mathematical problems using Python libraries like NumPy, SciPy, and Matplotlib. The training included hands-on projects that applied Python skills to real-world scenarios in research, engineering, and data science',
+      year: 'octobre 202  3',
+      link: 'https://freecodecamp.org/certification/fcc4268ab8f-280c-4d52-907f-0ee5ab60f5f2/scientific-computing-with-python-v7',
+    },
+    {
+      name: 'M220J: MongoDB for Java Developers',
+      body: 'Visualisation de données',
+      year: 'octobre 20223',
+      link: 'https://university.mongodb.com/course_completion/2797df06-3e83-450b-989b-880e2d86ee55?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing&fbclid=IwAR0RFIUULvMaXVCCNDMetK5LZbSsmdrt-yjJJWkV6xn-KeE49IvZZY0XXjs',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Institut Supérieur des Etudes Technologiques de Rades',
+      degree: 'Licence ',
+      from: '2023',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'lycee Haffouz',
+      degree: 'baccalauréat',
+      from: '2018',
+      to: '2017',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Redis vs. RabbitMQ: High-Speed Data Store and Caching vs. Advanced Message Queuing',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Redis vs. RabbitMQ',
+      authors: 'Nassredine wesleti',
+      link: 'https://medium.com/p/ac1a879c911a',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'When it comes to building efficient and scalable applications, choosing the right tools for data storage, caching, and messaging is crucial. In this article, well compare Redis, a high-speed data store and caching solution, with RabbitMQ, an advanced message queuing system',
     },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+   
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'Nasredinwesleti', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -235,7 +234,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/nasredinW/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
